@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root{
+	--main:orange;
+	--bg:#0B1218;
+	--bg-body:#131D28;
+}
+
+* {
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+}
+.sidebar{
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+	background: var(--bg);
+	width: 280px;
+	overflow-y: auto;
+}
+
+.brand{
+	padding: .5rem 1rem;
+	display: flex;
+	color: var(--main);
+	align-items: center;
+	height: 70px;
+}
+
+.brand span {
+	font-size: 1.8rem;
+	margin-right: .5rem;
+}
+
+.siderbar-user {
+	margin: 3.5rem 0rem;
+}
+
+.sider-img{
+	height: 150px;
+	width: 150px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+	border: 4px solid #3e454d;
+	border-radius: 50%;
+}
+
+.user{
+	text-align: center;
+	color: #fff;
+	margin-top: .5rem; 
+}
+
+.user small {
+	display: inline-block;
+	color: var(--main);
+}
+
+.sidemenu {
+	padding: .5rem;
+
+}
+
+.sidemenu li {
+  margin-bottom: .9rem; 
+}
+
+.sidemenu a {
+	color: #fff;
+	font-size: .98rem;
+	display: flex;
+	align-items: center;
+	padding: .4rem 0rem;
+}
+
+.sidemenu a span:first-child{
+	font-size: 1.3rem;
+	padding: 0rem .6rem;
+}
+
+.sidemenu a.active {
+	background:var(--main);
+	color: #fff;
+	border-radius: 5px;
+	height: 45px;
+}
+
+.main-content {
+	margin-left:300px; 
+}
