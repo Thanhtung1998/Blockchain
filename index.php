@@ -266,4 +266,3 @@ sign_in_btn.addEventListener("click", () => {
     ></script>
   </body>
 </html>
-<!-- Developed by Anubhav Dutta : https://www.linkedin.com/in/iamanubhavdutta/ -->
